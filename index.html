@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Reto 2 Mastertech USA</title>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/misFunciones.js"></script>
+	
+	</head>
+
+    <body>
+		<!--<h1>GAMES</h1>-->
+		<b style="color: yellowgreen" onclick="changeColor(this.parentNode)"><h1>GAMES</h1></b>
+		
+		<div>
+			<input type="number" id="id" placeholder="id">
+			<input type="text" id="developer" placeholder="developer">
+			<input type="number" id="minage" placeholder="minage">
+			<input type="number" id="category_id" placeholder="category_id">
+			<input type="text" id="name" placeholder="name">
+
+		</div>
+		
+		<button onclick="guardarInformacionGames()">Guardar</button>
+		<button onclick="editarInformacionGames()">Actualizar</button>
+		<button onclick="traerInformacionGames()">Consultar</button>
+		<div id="resultadoGames"></div>
+			
+		<!--<h1>CLIENT</h1>-->
+		<b style="color: blue" onclick="changeColor(this.parentNode)"><h1>CLIENT</h1></b>
+		<div>
+			<input type="number" id="idClient" placeholder="id">
+			<input type="text" id="nameClient" placeholder="name">
+			<input type="text" id="email" placeholder="email">
+			<input type="number" id="age" placeholder="age">
+
+		</div>
+		
+		<button onclick="guardarInformacionClient()">Guardar</button>
+		<button onclick="editarInformacionClient()">Actualizar</button>
+		<button onclick="traerInformacionClient()">Consultar</button>
+		<div id="resultadoClient"></div>	
+
+		<!--<h1>MESSAGE</h1>-->
+		<b style="color: red" onclick="changeColor(this.parentNode)"><h1>MESSAGE</h1></b>
+		<div>
+			<input type="number" id="idMessage" placeholder="id">
+			<input type="text" id="messagetext" placeholder="messagetext">
+
+		</div>
+		
+		<button onclick="guardarInformacionMessage()">Guardar</button>
+		<button onclick="editarInformacionMessage()">Actualizar</button>
+		<button onclick="traerInformacionMessage()">Consultar</button>
+		<div id="resultadoMessage"></div>
+    
+    <body>    
+   
+</html>
