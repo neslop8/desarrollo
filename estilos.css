@@ -1,0 +1,15 @@
+body{
+    background:  lightgrey;				
+}
+table, th, td {
+  border: 1px solid green;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: greenyellow;
+}
+
+header{
+    background: green;
+    text-align: center;
+}

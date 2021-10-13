@@ -6,21 +6,18 @@
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	    <script type="text/javascript" src="js/misFunciones.js"></script>
 
-		<style>
-			table, th, td {
-			  border: 1px solid green;
-			  border-collapse: collapse;
-			}
-			th, td {
-			  background-color: greenyellow;
-			}
-		</style>
+		<link rel="stylesheet" href="estilos.css" />
 		
 	</head>
 
     <body>
+		<header>
+		<b style="color: yellowgreen" onclick="changeColor(this.parentNode)"><h1>ALQUILER DE JUEGOS</h1></b>
+		</header>
 		<!--<h1>GAMES</h1>-->
-		<b style="color: yellowgreen" onclick="changeColor(this.parentNode)"><h1>GAMES</h1></b>
+		
+		<b style="color: yellowgreen" onclick="changeColor(this.parentNode)"><h2>GAMES</h2></b>
+		
 		
 		<div>
 			<input type="number" id="idGame" placeholder="id">
@@ -37,7 +34,7 @@
 		<div id="resultadoGames"></div>
 			
 		<!--<h1>CLIENT</h1>-->
-		<b style="color: blue" onclick="changeColor(this.parentNode)"><h1>CLIENT</h1></b>
+		<b style="color: blue" onclick="changeColor(this.parentNode)"><h2>CLIENT</h2></b>
 		<div>
 			<input type="number" id="idClient" placeholder="id">
 			<input type="text" id="nameClient" placeholder="name">
@@ -52,7 +49,7 @@
 		<div id="resultadoClient"></div>	
 
 		<!--<h1>MESSAGE</h1>-->
-		<b style="color: red" onclick="changeColor(this.parentNode)"><h1>MESSAGE</h1></b>
+		<b style="color: red" onclick="changeColor(this.parentNode)"><h2>MESSAGE</h2></b>
 		<div>
 			<input type="number" id="idMessage" placeholder="id">
 			<input type="text" id="messagetext" placeholder="messagetext">
